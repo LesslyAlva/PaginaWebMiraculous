@@ -1,0 +1,69 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: whitesmoke;
+}
+
+h1 {
+
+    font-style: italic;
+}
+
+/*Esta etiqueta cambia ell tipo de letra de todo lo que est´en el body (todo, todo)
+Buscar una nueva fuente padre para el body
+Checar las fuentes de google fonts
+*/
+/*El selector de clase crea selectore específicos*/
+/*Cmabiar las fuentes de las clases*/
+
+.TimesNewRoman {
+    font-family: 'Times New Roman', Times, serif
+}
+
+#BarraNavegacion {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav-link {
+    float: left;
+}
+
+.nav-link a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-link a:hover {
+    background-color: black
+}
+
+.contenedor {
+    text-align: center;
+}
+.centrarTexto {
+    text-align: center;
+}
+
+.centrarImg {
+        display: block;
+        margin: 0 auto;
+}
+/*Minuto donde checa las fuentes de google 2:19:00*/
+
+/*Pegar el codigo de CSS de la barra de navegación*/
+/*A los li ponerles la clase .nav-link*/
+
+/*El "display: inline" no le puedes poner alto nin ancho
+
+En el "display: block" ocupa toda la linea, le puedes modificar el alto y ancho, pero como ocupa toda la línea, si son 2 imágenes se pone una sobre otra
+
+En el "display: inline-block" ocupa la línea pero si son 2 imágenes quedan en la misma línea, y si se puede modificar el alto y ancho
+*/
+
